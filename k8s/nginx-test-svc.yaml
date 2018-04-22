@@ -7,7 +7,7 @@ metadata:
     k8s-app: nginx-test
   annotations:
     d-engine.ip6n.net/gitRepo: "https://github.com/ip6n/nginx-test.git"
-    d-engine.ip6n.net/backupBlock: "lon02-tst-002"
+    d-engine.ip6n.net/backupBlock: "{{ blockId }}"
     d-engine.ip6n.net/ipv4: "auto"
     d-engine.ip6n.net/vs-http-desc: "HTTP traffic to nginx-test"
     d-engine.ip6n.net/vs-http-vsPort: "80"
